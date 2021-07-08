@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=c|Montserrat');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -16,20 +16,20 @@ Fonts are separated by a | */
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --headline-color-on-color: #F0F1F2; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: black;
-  --nav-link-color: #396E94;
-  --nav-background-color: #E7C24F;
-  --nav-hover-link-color: #E7C24F;
-  --nav-hover-background-color: #396E94;
+  --paragraph-background-color: #022859;
+  --nav-link-color: #F0F1F2;
+  --nav-background-color: #022859;
+  --nav-hover-link-color: #F0F1F2;
+  --nav-hover-background-color: #ADC5D9;
 }
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 html {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 body {
   max-width: 940px;
